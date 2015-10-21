@@ -9007,7 +9007,7 @@ ul.small-list li {
 
 .mailing-list-caption {
   font-size: 17px;
-  line-height: 25.5px;
+  line-height: 1.6;
 }
 
 @media only screen {
@@ -9028,7 +9028,6 @@ ul.small-list li {
 
   .mailing-list-text {
     float: left;
-    width: 40%;
     text-align: left;
   }
 
@@ -9057,11 +9056,6 @@ ul.small-list li {
     margin-bottom: 5px;
     font-size: 24px;
     line-height: 24px;
-  }
-
-  .mailing-list-caption {
-    font-size: 15px;
-    line-height: 20px;
   }
 }
 @media only screen and (min-width: 920px) {

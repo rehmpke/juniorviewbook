@@ -1,0 +1,108 @@
+.save-time-money { 
+  color: $text-colour;
+  background-color: #ffffff; 
+}
+
+.save-time-money h2{
+  color: #efac1f;
+  font-size: 78px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.save-time-money h3 {
+  color: #9f2a60;
+  font-size: 33px;
+  font-family: $basefont-stack;
+  line-height: 1.0em;
+}
+
+.save-time-money .grad-steps-ahead h3 {
+  color: $text-secondary-colour;
+  font-size: 33px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.save-time-money .grad-steps-ahead h3 span{
+  font-size: 33px;
+  font-family: $basefont-stack;
+}
+
+.save-time-money .grad-steps-ahead-g h3 {
+  color: $text-secondary-colour;
+  font-size: 33px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.save-time-money h4{
+  color: #9f2a60;
+  font-size: 26px;
+  font-family: $basefont-stack;
+  line-height: 1.0em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.save-time-money .grad-steps-ahead{
+  padding: 20px 20px 5px 20px;
+  color: $text-secondary-colour;
+  background-color: $panel-colour-two; 
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.save-time-money .grad-steps-ahead-g{
+  padding: 20px 20px 5px 20px;
+  color: $text-secondary-colour;
+  background-color: $panel-colour-three; 
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.grad-steps-ahead-g .steps{
+  background-image:url('#{$imagedir}steps.png');
+  background-size: 210px;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 481px) {
+.save-time-money h2{
+  font-size: 36px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+}
+
+.grad-steps-ahead .steps{
+  background-image:url('#{$imagedir}steps.png');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 482px) and (max-width: 1023px) {
+.save-time-money h2{
+  font-size: 48px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+}
+
+.grad-steps-ahead .steps{
+  background-image:url('#{$imagedir}steps.png');
+  background-repeat: no-repeat;
+  background-size: 235px;
+  padding-top: 150px;
+  margin-top: 25px;
+}
+}

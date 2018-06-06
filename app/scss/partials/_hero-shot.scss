@@ -1,0 +1,79 @@
+.hero-shot { 
+  min-height: 740px;
+  color: $text-secondary-colour;
+  background-color: #544746;
+  background-image: url('#{$imagedir}big-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.hero-shot h2{
+  font-size: 46px;
+  font-family: $thirdfont-stack;
+transform: rotate(345deg) ;
+-webkit-transform: rotate(345deg) ;
+-moz-transform: rotate(345deg) ;
+-o-transform: rotate(345deg) ;
+-ms-transform: rotate(345deg) ;
+}
+.hero-shot h2 span {
+  font-size: 170px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+@media (max-width: 481px) {
+  .hero-shot { 
+    min-height: 250px;
+    color: $text-secondary-colour;
+    background-color: #544746;
+    background-image: url('#{$imagedir}big-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .hero-shot h2{
+    float:right;
+    font-size: 36px;
+    font-family: $thirdfont-stack;
+  transform: rotate(345deg) ;
+  -webkit-transform: rotate(345deg) ;
+  -moz-transform: rotate(345deg) ;
+  -o-transform: rotate(345deg) ;
+  -ms-transform: rotate(345deg) ;
+  }
+  .hero-shot h2 span {
+    font-size: 80px;
+    font-family: $secondaryfont-stack;
+    line-height: 1.0em;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .hero-shot { 
+    min-height: 400px;
+    color: $text-secondary-colour;
+    background-color: #544746;
+    background-image: url('#{$imagedir}big-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .hero-shot h2{
+    float:right;
+    margin-right:80px;
+    font-size: 36px;
+    font-family: $thirdfont-stack;
+  transform: rotate(345deg) ;
+  -webkit-transform: rotate(345deg) ;
+  -moz-transform: rotate(345deg) ;
+  -o-transform: rotate(345deg) ;
+  -ms-transform: rotate(345deg) ;
+  }
+  .hero-shot h2 span {
+    font-size: 80px;
+    font-family: $secondaryfont-stack;
+    line-height: 1.0em;
+  }
+}
